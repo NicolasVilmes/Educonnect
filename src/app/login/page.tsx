@@ -6,7 +6,6 @@ import IMG from "../../../public/Estudante.svg";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-
 export default function Login() {
   const router = useRouter();
 
@@ -39,6 +38,8 @@ export default function Login() {
     <body>
       <div className="main-log">
         <div className="left-login">
+          <h1>Faça Login</h1>
+          <h1>Venha para a EduConnect</h1>
           <Image src={IMG} alt="Estudante" className="left-login-image" />
           <h1></h1>
         </div>
